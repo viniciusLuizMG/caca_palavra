@@ -1,0 +1,60 @@
+ body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+    }
+    .wordSearch {
+        display: inline-block;
+        margin-top: 20px;
+        user-select: none; /* Evita a seleção de texto ao arrastar */
+    }
+    .wordSearch table {
+        border-collapse: collapse;
+        margin: auto;
+    }
+    .wordSearch td {
+        width: 30px;
+        height: 30px;
+        border: 1px solid #000;
+        text-align: center;
+        cursor: pointer;
+    }
+    .highlight {
+        background-color: #eca6e1;
+    }
+    .found {
+        background-color: lightgreen;
+    }
+    .words {
+        margin-top: 20px;
+    }
+    .word {
+        display: inline-block;
+        margin: 5px;
+        cursor: pointer;
+    }
+    .found-word {
+        text-decoration: line-through;
+        color: green;
+    }
+    .reiniciar{
+        border:none;
+        border-radius: 10px;
+        height: 10vh;
+        width: 20%; 
+        font-size: 25px;
+        background-color: rgb(74, 168, 61);
+        color: rgb(255, 255, 255);
+    }
+
+.spanWin{
+    color: white;
+    font-size: 20px;
+    height: 50px;
+    margin: 0 auto;
+    width: 25%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(93, 151, 84, 0.733);
+    
+}
